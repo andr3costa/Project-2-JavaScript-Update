@@ -1,0 +1,102 @@
+*{
+    font-family: monospace;
+    text-align: center;
+}
+
+body{
+    background-color: white;
+}
+
+#clock{
+    text-align: left;
+}
+
+.home h1{
+    margin: 50px 30px;
+}
+
+a{
+    color: black;
+    border: 2px solid red;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 6px;
+    margin: 15px;
+    transition-duration: 0.4s;
+}
+
+a:hover{
+    background-color: red;
+    color: white;
+}
+
+img{
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cats h1{
+    font-size: 300%;
+}
+
+.cats h4{
+    font-size: 150%;
+}
+
+.music li{
+    list-style: none;
+}
+
+#light{
+    border-color: greenyellow;
+}
+
+#light:hover{
+    background-color: greenyellow;
+}
+
+#isolation{
+    border-color: blueviolet;
+}
+
+#isolation:hover{
+    background-color: blueviolet;
+}
+
+#warrior{
+    border-color: goldenrod;
+}
+
+#warrior:hover{
+    background-color: goldenrod;
+}
+
+#final{
+    border-color: blue;
+}
+
+#final:hover{
+    background-color: blue;
+}
+
+#dimension{
+    border-color: black;
+}
+
+#dimension:hover{
+    background-color: black;
+}
+
+#container{
+    display: grid;
+    grid-template-rows: repeat(3, 50px);
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.home div{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+}
